@@ -17,31 +17,8 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWI-qi-Bah">
-                    <rect key="frame" x="117.66666666666669" y="416" width="158" height="20"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exa-GM-goX">
-                    <rect key="frame" x="10" y="773" width="373" height="35"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="35" id="HpR-1t-SMa"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                </button>
-            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="exa-GM-goX" secondAttribute="trailing" constant="10" id="95G-rO-h69"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="exa-GM-goX" secondAttribute="bottom" constant="10" id="FCM-OY-nQY"/>
-                <constraint firstItem="ZWI-qi-Bah" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="LLR-DQ-hLf"/>
-                <constraint firstItem="exa-GM-goX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="tve-oG-dfX"/>
-                <constraint firstItem="ZWI-qi-Bah" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vEd-Zi-7M5"/>
-            </constraints>
             <point key="canvasLocation" x="21" y="61"/>
         </view>
     </objects>
